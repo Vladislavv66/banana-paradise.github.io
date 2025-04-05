@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.main-menu a:hover {
+    color: #ccc;
+}
+
+.balance-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.balance {
+    font-size: 24px;
+    color: #2ecc71;
+}
+
+.add-ruble-btn, .buy-btn, .pay-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-ruble-btn:hover, .buy-btn:hover, .pay-btn:hover {
+    background-color: #3e8e41;
+}
+
+.bananas {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.bananas-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banana-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.cart {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+#cart-list {
+    padding: 20px;
+}
+
+#total-price {
+    font-size: 24px;
+}

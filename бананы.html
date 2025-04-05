@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Банановый рай</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li><a href="бананы.html" class="active">Главная</a></li>
+                <li><a href="онас.html">О нас</a></li>
+                <li><a href="контакты.html">Контакты</a></li>
+           
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="balance-container">
+            <h2>Ваш баланс: <span class="balance" id="balance">0</span> ₽</h2>
+            <button class="add-ruble-btn">Добавить 1 ₽</button>
+        </div>
+
+        <section class="bananas">
+            <h2>Наши бананы</h2>
+            <div class="bananas-list">
+               
+                <div class="banana-item">
+                     <img src="премиум_банан.jpg" alt="Обычный банан" width="250" height="250">
+                    <h3>Обычный банан</h3>
+                    <p>Цена: 10 ₽</p>
+                    <button class="buy-btn">Купить</button>
+                </div>
+                <div class="banana-item">
+                    <img src="золотой_банан.jpg" alt="Обычный банан" width="250" height="250">
+                    <h3>Золотой банан</h3>
+                    <p>Цена: 20 ₽</p>
+                    <button class="buy-btn">Купить</button>
+                </div>
+                <div class="banana-item">
+                    <img src="редкий_банан.jpg" alt="Обычный банан" width="250" height="250">
+                    <h3>Редкий банан </h3>
+                    <p>Цена: 30 ₽</p>
+                    <button class="buy-btn">Купить</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Ваша корзина</h2>
+            <div id="cart-list"></div>
+            <p id="total-price"></p>
+            <button class="pay-btn" id="pay-with-balance">Оплатить с баланса</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
